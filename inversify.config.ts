@@ -10,6 +10,6 @@ var container = new Container();
 
 // bind all our of our dependencies
 container.bind<iLogger>(TYPES.iLogger).to(ElasticLogger);
-container.bind<User>(TYPES.User).to(User)
+container.bind<iUser>(TYPES.User).to(User)
 
 export default container;
