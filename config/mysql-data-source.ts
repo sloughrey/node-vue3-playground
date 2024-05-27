@@ -1,5 +1,5 @@
 import { DataSource } from "typeorm";
-import { User } from "../models/UserTypeORMDataMapper";
+import User from "../models/UserTypeORMDataMapper";
 import { DB_TYPE, DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE, DB_PORT } from "./envVars"
 
 export const AppDataSource = new DataSource({
